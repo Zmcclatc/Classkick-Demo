@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEC76C521B25DA840039B6DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC76C511B25DA840039B6DE /* main.m */; };
+		CEC76C551B25DA840039B6DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC76C541B25DA840039B6DE /* AppDelegate.m */; };
+		CEC76C581B25DA840039B6DE /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC76C571B25DA840039B6DE /* FirstViewController.m */; };
+		CEC76C5B1B25DA840039B6DE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC76C5A1B25DA840039B6DE /* SecondViewController.m */; };
+		CEC76C5E1B25DA840039B6DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC76C5C1B25DA840039B6DE /* Main.storyboard */; };
+		CEC76C601B25DA840039B6DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC76C5F1B25DA840039B6DE /* Images.xcassets */; };
+		CEC76C631B25DA840039B6DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC76C611B25DA840039B6DE /* LaunchScreen.xib */; };
+		CEC76C6F1B25DA840039B6DE /* Classkick_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC76C6E1B25DA840039B6DE /* Classkick_DemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEC76C691B25DA840039B6DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC76C441B25DA840039B6DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC76C4B1B25DA840039B6DE;
+			remoteInfo = "Classkick Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEC76C4C1B25DA840039B6DE /* Classkick Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Classkick Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC76C501B25DA840039B6DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC76C511B25DA840039B6DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEC76C531B25DA840039B6DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEC76C541B25DA840039B6DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEC76C561B25DA840039B6DE /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		CEC76C571B25DA840039B6DE /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		CEC76C591B25DA840039B6DE /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		CEC76C5A1B25DA840039B6DE /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		CEC76C5D1B25DA840039B6DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEC76C5F1B25DA840039B6DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEC76C621B25DA840039B6DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CEC76C681B25DA840039B6DE /* Classkick DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Classkick DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC76C6D1B25DA840039B6DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC76C6E1B25DA840039B6DE /* Classkick_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Classkick_DemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEC76C491B25DA840039B6DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC76C651B25DA840039B6DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEC76C431B25DA840039B6DE = {
+			isa = PBXGroup;
+			children = (
+				CEC76C4E1B25DA840039B6DE /* Classkick Demo */,
+				CEC76C6B1B25DA840039B6DE /* Classkick DemoTests */,
+				CEC76C4D1B25DA840039B6DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEC76C4D1B25DA840039B6DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEC76C4C1B25DA840039B6DE /* Classkick Demo.app */,
+				CEC76C681B25DA840039B6DE /* Classkick DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEC76C4E1B25DA840039B6DE /* Classkick Demo */ = {
+			isa = PBXGroup;
+			children = (
+				CEC76C531B25DA840039B6DE /* AppDelegate.h */,
+				CEC76C541B25DA840039B6DE /* AppDelegate.m */,
+				CEC76C561B25DA840039B6DE /* FirstViewController.h */,
+				CEC76C571B25DA840039B6DE /* FirstViewController.m */,
+				CEC76C591B25DA840039B6DE /* SecondViewController.h */,
+				CEC76C5A1B25DA840039B6DE /* SecondViewController.m */,
+				CEC76C5C1B25DA840039B6DE /* Main.storyboard */,
+				CEC76C5F1B25DA840039B6DE /* Images.xcassets */,
+				CEC76C611B25DA840039B6DE /* LaunchScreen.xib */,
+				CEC76C4F1B25DA840039B6DE /* Supporting Files */,
+			);
+			path = "Classkick Demo";
+			sourceTree = "<group>";
+		};
+		CEC76C4F1B25DA840039B6DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC76C501B25DA840039B6DE /* Info.plist */,
+				CEC76C511B25DA840039B6DE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEC76C6B1B25DA840039B6DE /* Classkick DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEC76C6E1B25DA840039B6DE /* Classkick_DemoTests.m */,
+				CEC76C6C1B25DA840039B6DE /* Supporting Files */,
+			);
+			path = "Classkick DemoTests";
+			sourceTree = "<group>";
+		};
+		CEC76C6C1B25DA840039B6DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC76C6D1B25DA840039B6DE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEC76C4B1B25DA840039B6DE /* Classkick Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC76C721B25DA840039B6DE /* Build configuration list for PBXNativeTarget "Classkick Demo" */;
+			buildPhases = (
+				CEC76C481B25DA840039B6DE /* Sources */,
+				CEC76C491B25DA840039B6DE /* Frameworks */,
+				CEC76C4A1B25DA840039B6DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Classkick Demo";
+			productName = "Classkick Demo";
+			productReference = CEC76C4C1B25DA840039B6DE /* Classkick Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEC76C671B25DA840039B6DE /* Classkick DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC76C751B25DA840039B6DE /* Build configuration list for PBXNativeTarget "Classkick DemoTests" */;
+			buildPhases = (
+				CEC76C641B25DA840039B6DE /* Sources */,
+				CEC76C651B25DA840039B6DE /* Frameworks */,
+				CEC76C661B25DA840039B6DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEC76C6A1B25DA840039B6DE /* PBXTargetDependency */,
+			);
+			name = "Classkick DemoTests";
+			productName = "Classkick DemoTests";
+			productReference = CEC76C681B25DA840039B6DE /* Classkick DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEC76C441B25DA840039B6DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Classkick;
+				TargetAttributes = {
+					CEC76C4B1B25DA840039B6DE = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					CEC76C671B25DA840039B6DE = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = CEC76C4B1B25DA840039B6DE;
+					};
+				};
+			};
+			buildConfigurationList = CEC76C471B25DA840039B6DE /* Build configuration list for PBXProject "Classkick Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEC76C431B25DA840039B6DE;
+			productRefGroup = CEC76C4D1B25DA840039B6DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEC76C4B1B25DA840039B6DE /* Classkick Demo */,
+				CEC76C671B25DA840039B6DE /* Classkick DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEC76C4A1B25DA840039B6DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC76C5E1B25DA840039B6DE /* Main.storyboard in Resources */,
+				CEC76C631B25DA840039B6DE /* LaunchScreen.xib in Resources */,
+				CEC76C601B25DA840039B6DE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC76C661B25DA840039B6DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEC76C481B25DA840039B6DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC76C5B1B25DA840039B6DE /* SecondViewController.m in Sources */,
+				CEC76C551B25DA840039B6DE /* AppDelegate.m in Sources */,
+				CEC76C581B25DA840039B6DE /* FirstViewController.m in Sources */,
+				CEC76C521B25DA840039B6DE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC76C641B25DA840039B6DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC76C6F1B25DA840039B6DE /* Classkick_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEC76C6A1B25DA840039B6DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEC76C4B1B25DA840039B6DE /* Classkick Demo */;
+			targetProxy = CEC76C691B25DA840039B6DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEC76C5C1B25DA840039B6DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC76C5D1B25DA840039B6DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEC76C611B25DA840039B6DE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC76C621B25DA840039B6DE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEC76C701B25DA840039B6DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEC76C711B25DA840039B6DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEC76C731B25DA840039B6DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Classkick Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEC76C741B25DA840039B6DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Classkick Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEC76C761B25DA840039B6DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Classkick DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Classkick Demo.app/Classkick Demo";
+			};
+			name = Debug;
+		};
+		CEC76C771B25DA840039B6DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Classkick DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Classkick Demo.app/Classkick Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEC76C471B25DA840039B6DE /* Build configuration list for PBXProject "Classkick Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC76C701B25DA840039B6DE /* Debug */,
+				CEC76C711B25DA840039B6DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC76C721B25DA840039B6DE /* Build configuration list for PBXNativeTarget "Classkick Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC76C731B25DA840039B6DE /* Debug */,
+				CEC76C741B25DA840039B6DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEC76C751B25DA840039B6DE /* Build configuration list for PBXNativeTarget "Classkick DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC76C761B25DA840039B6DE /* Debug */,
+				CEC76C771B25DA840039B6DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEC76C441B25DA840039B6DE /* Project object */;
+}
