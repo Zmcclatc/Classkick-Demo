@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33F7C28F7CAD0DE587E14C3C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DE09599B3B535D06FB26DF2 /* libPods.a */; };
 		CEC76C521B25DA840039B6DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC76C511B25DA840039B6DE /* main.m */; };
 		CEC76C551B25DA840039B6DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC76C541B25DA840039B6DE /* AppDelegate.m */; };
 		CEC76C581B25DA840039B6DE /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC76C571B25DA840039B6DE /* FirstViewController.m */; };
@@ -28,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DE09599B3B535D06FB26DF2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A1678A55DB860AABCDCA4AF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		7BD9ED2E18DCC9342E86CCE5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CEC76C4C1B25DA840039B6DE /* Classkick Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Classkick Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC76C501B25DA840039B6DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEC76C511B25DA840039B6DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -50,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33F7C28F7CAD0DE587E14C3C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,12 +68,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		370A11B1AE8CF228876437C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BD9ED2E18DCC9342E86CCE5 /* Pods.debug.xcconfig */,
+				1A1678A55DB860AABCDCA4AF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		666181EE42DA489A5FC70C62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DE09599B3B535D06FB26DF2 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CEC76C431B25DA840039B6DE = {
 			isa = PBXGroup;
 			children = (
 				CEC76C4E1B25DA840039B6DE /* Classkick Demo */,
 				CEC76C6B1B25DA840039B6DE /* Classkick DemoTests */,
 				CEC76C4D1B25DA840039B6DE /* Products */,
+				370A11B1AE8CF228876437C3 /* Pods */,
+				666181EE42DA489A5FC70C62 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEC76C721B25DA840039B6DE /* Build configuration list for PBXNativeTarget "Classkick Demo" */;
 			buildPhases = (
+				AFC425B0146A9F49745ED94D /* Check Pods Manifest.lock */,
 				CEC76C481B25DA840039B6DE /* Sources */,
 				CEC76C491B25DA840039B6DE /* Frameworks */,
 				CEC76C4A1B25DA840039B6DE /* Resources */,
+				E57A3BFE87F5638EDC5AF5DC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -218,6 +244,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AFC425B0146A9F49745ED94D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E57A3BFE87F5638EDC5AF5DC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CEC76C481B25DA840039B6DE /* Sources */ = {
@@ -351,6 +410,7 @@
 		};
 		CEC76C731B25DA840039B6DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BD9ED2E18DCC9342E86CCE5 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Classkick Demo/Info.plist";
@@ -361,6 +421,7 @@
 		};
 		CEC76C741B25DA840039B6DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A1678A55DB860AABCDCA4AF /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Classkick Demo/Info.plist";
@@ -422,6 +483,7 @@
 				CEC76C741B25DA840039B6DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEC76C751B25DA840039B6DE /* Build configuration list for PBXNativeTarget "Classkick DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +492,7 @@
 				CEC76C771B25DA840039B6DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
